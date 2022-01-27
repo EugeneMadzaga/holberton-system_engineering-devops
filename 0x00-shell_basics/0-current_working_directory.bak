@@ -1,2 +1,2 @@
 #!/bin/bash
-eos$ pwd
+pwd –L
