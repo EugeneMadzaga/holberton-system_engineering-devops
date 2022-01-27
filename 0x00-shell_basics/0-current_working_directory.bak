@@ -1,2 +1,11 @@
-#!/bin/bash
-echo $PWD
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory.bak
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/1-listit
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/3-listfiles
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/4-listmorefiles
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/6-firstdirectory
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/README.md
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/test_file
+/c/projects/holberton-system_engineering-devops/0x00-shell_basics/test_file.bak
