@@ -1,3 +1,0 @@
-#!/bin/bash
-#README file
-test text...
