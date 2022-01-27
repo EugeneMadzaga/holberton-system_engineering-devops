@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PWD
+ls -d "$PWD"/* > 0-current_working_directory
