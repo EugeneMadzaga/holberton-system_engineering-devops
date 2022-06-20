@@ -12,3 +12,7 @@ if [ -s $name ]; then
 else
     echo "$name file is not empty"
 fi
+if [ !-f $name ]; then
+else
+    echo "$name is a regular file"
+fi
