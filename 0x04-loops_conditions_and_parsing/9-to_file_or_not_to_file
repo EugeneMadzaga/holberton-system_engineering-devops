@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
 #Bash script that gives you information about the school file
 name="school"
-if [ ! -e "$name" ]; then
-    echo "$name file does not exist"
+if [[ -e "$FILE" ]]; then
+    echo $FILE file exists
+    if [[ ! -s "$FILE" ]]; then
+	echo $FILE file is empty
+    else
+	echo $FILE file is not empty
+    fi
+    if [[ -f "$FILE" ]]; then
+	echo $FILE is a regular file
+    fi
 else
-    echo "$name file exists"
-fi
-if [ -s "$name" ]; then
-    echo "$name file is not empty"
-else
-    echo "$name file is empty"
-fi
-if [ -f "$name" ]; then
-    echo "$name is a regular file"
+    echo $FILE file does not exist
+    exit 1
 fi
