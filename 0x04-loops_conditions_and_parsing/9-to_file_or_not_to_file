@@ -13,7 +13,7 @@ else
     echo "$name file is not empty"
 fi
 if [ -f "$name" ]; then
-    echo ""
+    exit 1
 else
     echo "$name is a regular file"
 fi
