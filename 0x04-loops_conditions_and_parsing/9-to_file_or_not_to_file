@@ -2,10 +2,10 @@
 #Bash script that gives you information about the school file
 
 name="school"
-if [ -e "$name" ]; then
-    echo "$name file exists"
-else
+if [ ! -e "$name" ]; then
     echo "$name file does not exist"
+else
+    echo "$name file exists"
 fi
 if [ -s "$name" ]; then
     echo "$name file is not empty"
